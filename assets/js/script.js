@@ -174,7 +174,6 @@ var deleteTask = function(taskId) {
 
     var taskSelected = document.querySelector(".task-item[data-task-id='" + taskId + "']");
     taskSelected.remove();
-
     // create new array to hold updated list of tasks
     var updatedTaskArr = [];
 
